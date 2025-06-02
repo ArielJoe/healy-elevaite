@@ -80,5 +80,5 @@ jobs:
         with:
           app-name: "healy"
           slot-name: "Production"
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
